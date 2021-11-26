@@ -78,8 +78,8 @@ body{
     width: 100%;
 }
 #img1{
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
 }
 
 #img0{
@@ -172,6 +172,10 @@ a:hover{
 .div6>a{
     color: black;
 }
+.quote{
+    color: white;
+    font-size: 20px;
+}
 
 
  a{
@@ -179,6 +183,16 @@ a:hover{
     text-decoration: none;
     color: white;
 }
+
+.teacher{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+}
+.teacher>div{
+    justify-self: center;
+    align-self: center;
+}
+
 
 
 .dark-mode .heading{
