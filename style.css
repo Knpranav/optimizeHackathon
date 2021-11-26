@@ -127,15 +127,18 @@ p{
 
 .layout{
         display: grid;
-       margin: 0 auto;
+        justify-content: center;
+        align-content: center;
+        margin: auto auto;
+        background-color: #F1C543;
         width: 90%;
-        grid-template-columns: repeat(2,50%);
+        grid-template-columns: repeat(2,30%);
         gap: 2px;
 
 }
 .layout>div{
     background-color: rgb(213, 198, 223);
-    height: 200px;
+    height: 400px;
 }
 ul{
     width:500px;
