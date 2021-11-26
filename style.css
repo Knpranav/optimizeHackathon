@@ -1,9 +1,11 @@
 *{
-    font-family: 'Inconsolata',monospace;
+    font-family: 'Montserrat', sans-serif;
     margin:0;
     padding:0;
 }
-
+body{
+    background-image: linear-gradient(to right,rgb(152, 120, 241),rgb(49, 78, 173));
+}
 .container{
     display: grid;
     height: 2rem;
@@ -14,30 +16,29 @@
     gap: 2px;
 }
 .container > div{
-    background-color: rgb(0, 0, 0);
     color: white;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 600;
 }
-body{
-    background-color: rgb(65, 65, 65);
-}
+
 .title{
     margin: auto auto;
 }
 
 .heading{
+    background-color: rgb(48, 47, 47);
     text-transform: uppercase;
+    font-weight:700;
     display: grid;
     grid-template-columns:10% 90%;
     text-align: center;
-    background-image: linear-gradient(315deg, #966bb9 0%, #7c65ff);
     color: #ffffff;
-    box-shadow: 0px 5px 10px black;
+    box-shadow: 0px 5px 10px rgb(15, 2, 75);
     height: 100px;
     font-size: 20px;
+
 
 
 }
@@ -56,7 +57,7 @@ img{
     height: 80px;
     width:80px;
     box-shadow: 0px 0px 10px ;
-    border:2px solid gold ;
+    border:2px solid rgb(132, 0, 255) ;
     border-radius: 50%;
     animation-name:glow;
     animation-iteration-count: infinite;
@@ -75,7 +76,7 @@ img{
 }
 
 p{
-    color: rgb(148, 243, 93);
+    color: rgb(182, 178, 245);
     font-size: 22px;
     text-align: center;
     width:400px;
@@ -95,7 +96,20 @@ p{
     background-color: rgb(213, 198, 223);
     height: 200px;
 }
+ol{
+    width:500px;
+    text-align: left;
+    background-color: rgb(61, 61, 61);
+    border-radius: 10px;
+    line-height: 24px;
+    font-size: 18px;
+    text-transform:none;
+    position: absolute;
+    padding: 5px;
+}
 
 .container>div:hover{
-    background-image: linear-gradient(to right , rgb(43, 161, 126),lightgreen);
+    background-image: linear-gradient(to right , rgb(43, 161, 126),rgb(106, 190, 106));
+    transition:ease-in-out;
+    border-radius: 20px;
 }
