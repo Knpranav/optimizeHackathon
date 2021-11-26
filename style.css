@@ -130,15 +130,35 @@ p{
         justify-content: center;
         align-content: center;
         margin: auto auto;
-        background-color: #F1C543;
         width: 90%;
-        grid-template-columns: repeat(2,30%);
-        gap: 2px;
+        grid-template-columns:repeat(2,50%);
+        grid-template-areas:"box1 box1"
+                            "box2  box3"
+                            "box4 box4";
+        gap: 5px;
 
 }
+.box1{
+        grid-area: box1;
+        background-color: #0D1117;
+        
+}
+details{
+    position:absolute;
+    z-index: 2;
+}
+.box2{
+    grid-area: box2;
+}
+.box3{
+    grid-area: box3;
+}
+.box4{
+    grid-area: box4;
+}
 .layout>div{
-    background-color: rgb(213, 198, 223);
-    height: 400px;
+    height: 300px;
+    background-color:#F4F3F5;
 }
 ul{
     width:500px;
