@@ -138,6 +138,17 @@ p{
         gap: 5px;
 
 }
+
+#dr{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.img3{
+    background-color: aqua;
+    height: min-content;
+    width: min-content;
+}
 .box1{
         grid-area: box1;
         background-color: #0D1117;
@@ -283,3 +294,47 @@ a:hover{
     color: #F1C543;
 
 }
+.box1>h4{
+    background-color: #F1C543;
+    text-align: center;
+    color: #c5c1c1;
+    height: 30px;
+    font-size: 25px;
+}
+
+.box2>h4{
+        background-color: #F1C543;
+        text-align: center;
+        color: #504f4f;
+        height: 30px;
+        font-size: 25px;
+        text-transform: uppercase;
+    
+}
+.box3>h4{
+    background-color: #F1C543;
+    text-align: center;
+    color: #F4F1EE;
+    color: #504f4f;
+    height: 30px;
+    font-size: 25px;
+    text-transform: uppercase;
+
+}
+.box1{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2,50%);
+    text-transform: uppercase;
+}
+.box1>div{
+    background-color: #F1C543;
+    width: 50%;
+    text-align: center;
+    color: #504f4f;
+    text-transform: uppercase;
+    font-size: 25px;
+    height: 30px;
+    margin: 0 auto;
+}
+
