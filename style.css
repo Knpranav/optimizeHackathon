@@ -59,7 +59,6 @@ body{
     padding: 10px;
     border-radius: 10px;
   
-
 }
 .dark-mode {
     background-color: black;
@@ -67,6 +66,9 @@ body{
   }
 .icon:hover{
     background-color: rgb(77, 76, 76);
+}
+.teacher_img{
+    display: flex;
 }
 
 .emblem{
@@ -80,7 +82,16 @@ body{
 #img1{
     width: 300px;
     height: 300px;
+    margin: 0 auto;
+    justify-self: center;
+    align-self: center;
+ 
 }
+.quote{
+    display: flex;
+}
+
+
 
 #img0{
 
@@ -172,10 +183,6 @@ a:hover{
 .div6>a{
     color: black;
 }
-.quote{
-    color: white;
-    font-size: 20px;
-}
 
 
  a{
@@ -188,9 +195,14 @@ a:hover{
     display: grid;
     grid-template-columns: repeat(2,50%);
 }
-.teacher>div{
-    justify-self: center;
-    align-self: center;
+.quote>p{
+    box-shadow: 0px 0px 10px rgb(24, 21, 24);
+    text-align: left;
+    color: white;
+    font-size: 18px;
+    padding: 15px;
+
+
 }
 
 
