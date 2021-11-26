@@ -197,16 +197,37 @@ a:hover{
 .teacher{
     display: grid;
     grid-template-columns: repeat(2,50%);
+    height: 450px;
 }
 .quote>p{
-    box-shadow: 0px 0px 10px rgb(24, 21, 24);
+    box-shadow: 10px 10px 20px rgb(24, 21, 24);
     text-align: left;
     color: white;
     background-color: rgb(241, 197, 67);
     font-size: 18px;
     padding: 15px;
+    font-weight: bold;
+    transform:skewY(4deg);
+    transition: 1s;
 
-
+}
+#img1:hover{
+    transform:skewY(0deg);
+    height: 400px;
+    width: 400px;
+}
+#img1{
+    transform:skewY(-4deg);
+    aspect-ratio: 1;
+    transition: 1s;
+}
+.quote>p:hover{
+    transform:skewY(0deg);
+    background-color: #43c0f1;
+    font-weight: bold;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+    transition: 1s;
 }
 
 
@@ -237,9 +258,7 @@ a:hover{
     text-align:left;
     
 }
-.details:hover{
-    background-color: #46402f;
-}
+
 #kannada{
     color: #F1C543;
 
