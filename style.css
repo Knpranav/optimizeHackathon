@@ -233,7 +233,7 @@ a:hover{
 
 
 .dark-mode .heading{
-    background-color: rgb(73, 73, 73);
+    background-color: #0D1117;
     color: white;
 }
 .dark-mode {
@@ -241,7 +241,7 @@ a:hover{
 }
 
 .dark-mode .container{
-    background-color: rgb(63, 62, 62);
+    background-color:  #161B22;
     border-radius: 20px;
 }
 .dark-mode .div3>a{
