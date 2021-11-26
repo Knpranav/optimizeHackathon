@@ -196,7 +196,7 @@ a:hover{
     grid-template-columns: repeat(2,50%);
 }
 .quote>p{
-    box-shadow: 0px 0px 10px rgb(24, 21, 24);
+    box-shadow: 0px 0px 10px rgb(241, 197, 67);
     text-align: left;
     color: white;
     font-size: 18px;
