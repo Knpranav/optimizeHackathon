@@ -7,6 +7,7 @@ body{
     background-image: linear-gradient(to right,#592C88,purple);
     overflow-x: 0;
 }
+
 .container{
     display: grid;
     height: 2rem;
@@ -19,6 +20,7 @@ body{
     gap: 2px;
 }
 .container > div{
+    width: 100%;
     text-align: center;
     text-transform: uppercase;
     height: min-content;
@@ -29,6 +31,11 @@ body{
 
 .title{
     margin: auto auto;
+}
+.div2>:hover{
+    background-color: #F1C543;
+    padding: 0px 5px 0px 5px;
+    border-radius: 20px;
 }
 
 
@@ -156,7 +163,7 @@ p{
 }
 details{
     position:absolute;
-    z-index: 2;
+    z-index: 1;
 }
 .box2{
     grid-area: box2;
@@ -201,7 +208,7 @@ ul{
 
 .div4:hover >div{
     visibility: visible;
-    transition:ease-in-out;
+    z-index: 1;
     
 }
 a:hover{
