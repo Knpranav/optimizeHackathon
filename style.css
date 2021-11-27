@@ -2,10 +2,16 @@
     font-family: 'Montserrat', sans-serif;
     margin:0;
     padding:0;
+    box-sizing:border-box;
 }
-body{
+body,html{
     background-image: linear-gradient(to right,#592C88,purple);
     overflow-x: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing:border-box;
 }
 
 .container{
@@ -96,7 +102,6 @@ body{
 }
 .quote{
     display: flex;
-    height: auto;
 }
 
 
@@ -245,12 +250,14 @@ label{
     
     text-decoration: none;
     color: white;
+    margin-right: 0;
 }
 
 .teacher{
     display: grid;
     grid-template-columns: repeat(2,50%);
     height: 450px;
+    margin-right: 0;
 }
 .quote>p{
     box-shadow: 10px 10px 20px rgb(24, 21, 24);
@@ -258,10 +265,12 @@ label{
     color: white;
     background-color: rgb(241, 197, 67);
     font-size: 18px;
-    padding: 15px;
+    height: min-content;
+    padding: 5px;
     font-weight: bold;
     transform:skewY(4deg);
     transition: 1s;
+    
 
 }
 #img1:hover{
@@ -378,6 +387,9 @@ label{
     
     width:100%;
 }
+.quote{
+    width: min-content;
+}
 .part2>a{
     font-size: 15px;
     text-align: center;
@@ -472,4 +484,83 @@ label{
 }
 .dark-mode #kannada{
     color: #d0bcff;
+}
+body{
+    margin-right: 0;
+}
+html{
+    width:auto;
+    margin: 0;
+}
+
+/*media query*/
+@media screen and (max-width: 569px) {
+    .title{
+        font-size: 10px;
+        width:100%;
+        text-align: center;
+    }
+    #img0{
+        height: 20px;
+        width: 20px;
+    }
+    #kannada{
+        font-size: 8px;
+        text-align: center;
+    }
+    .container>div{
+        font-size: 5px;
+    }
+  #img1{
+      width: 80px;
+      height: 80px;
+  }
+  .quote>p{
+      font-size: 10px;
+      width: 120px;
+
+  }
+.in4{
+    width: 100px;
+}
+.div2>details{
+    padding: 0px;
+}
+.container>div:hover{
+    border-radius:0;
+}
+ul{
+    width: 200px;
+    font-size: 10px;
+    line-height: 12px;
+}
+.layout>div>h4{
+    font-size: 12px;
+}
+#bulletin{
+    font-size: 15px;
+}
+#circular{
+    font-size: 15px;
+}
+.box3>div{
+    font-size: 12px;
+    height: min-content;
+}
+.box2>div{
+    font-size: 10px;
+    
+}
+.part1>a{
+    font-size: 8px;
+}
+.part2>a{
+    font-size: 8px;
+}
+#dr{
+    width: 30px;
+    height: 30px;
+
+}
+
 }
