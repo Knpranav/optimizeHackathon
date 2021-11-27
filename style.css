@@ -4,7 +4,7 @@
     padding:0;
     box-sizing:border-box;
 }
-body,html{
+body{
     background-image: linear-gradient(to right,#592C88,purple);
     overflow-x: 0;
     margin: 0;
@@ -150,6 +150,12 @@ p{
                             "box4 box4";
         gap: 10px;
 
+}
+.div2>details>{
+    color:white;
+    }
+.div2>details>summary{
+color:black
 }
 
 #dr{
@@ -306,6 +312,9 @@ label{
     background-color:  #161B22;
     border-radius: 20px;
 }
+.dark-mode body{
+    background-image: linear-gradient(to top,black,black);
+}
 .dark-mode .div3>a{
     color: white;
 }
@@ -314,6 +323,7 @@ label{
 }
 .dark-mode .div6>a{
     color: white;
+    background-color: #0D1117;
 }
 
 .div4>details{
@@ -433,6 +443,9 @@ label{
     color:white
 
 }
+.dark-mode body{
+    background-color: #0D1117;
+}
 
 
 .box3>div:hover{
@@ -498,11 +511,13 @@ html{
     .title{
         font-size: 10px;
         width:100%;
-        text-align: center;
+        margin-left: 50px;
+    
     }
     #img0{
-        height: 20px;
-        width: 20px;
+        height: 40px;
+        width: 40px;
+        margin-left: 20px;
     }
     #kannada{
         font-size: 8px;
@@ -510,6 +525,9 @@ html{
     }
     .container>div{
         font-size: 5px;
+    }
+    .container{
+        margin-left: 50px;
     }
   #img1{
       width: 80px;
@@ -523,6 +541,9 @@ html{
 .in4{
     width: 100px;
 }
+.icon{
+    visibility: hidden;
+}
 .div2>details{
     padding: 0px;
 }
@@ -530,6 +551,7 @@ html{
     border-radius:0;
 }
 ul{
+    margin-left: 50px;
     width: 200px;
     font-size: 10px;
     line-height: 12px;
