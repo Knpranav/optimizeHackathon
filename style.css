@@ -301,7 +301,9 @@ label{
     transition: 1s;
 }
 
-
+.dark-mode #sats:hover{
+  background-color: #49249e;
+}
 
 .dark-mode .heading{
     background-color: #0D1117;
