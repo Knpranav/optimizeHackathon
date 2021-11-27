@@ -135,7 +135,7 @@ p{
         grid-template-areas:"box1 box1"
                             "box2  box3"
                             "box4 box4";
-        gap: 5px;
+        gap: 10px;
 
 }
 
@@ -151,7 +151,7 @@ p{
 }
 .box1{
         grid-area: box1;
-        background-color: #0D1117;
+    
         
 }
 details{
@@ -168,8 +168,8 @@ details{
     grid-area: box4;
 }
 .layout>div{
-    height: 300px;
-    background-color:#F4F3F5;
+
+    /* background-color:#F4F3F5; */
 }
 ul{
     width:500px;
@@ -314,7 +314,6 @@ a:hover{
 .box3>h4{
     background-color: #F1C543;
     text-align: center;
-    color: #F4F1EE;
     color: #504f4f;
     height: 30px;
     font-size: 25px;
@@ -327,14 +326,69 @@ a:hover{
     grid-template-columns: repeat(2,50%);
     text-transform: uppercase;
 }
-.box1>div{
+.box1>div>h4{
     background-color: #F1C543;
-    width: 50%;
     text-align: center;
-    color: #504f4f;
-    text-transform: uppercase;
-    font-size: 25px;
+    width:100%;
     height: 30px;
-    margin: 0 auto;
+    font-size: 25px;
+    color: #504f4f;
 }
 
+
+.part1{
+    background: rgb(255,255,255,0.2);
+    width:100%;
+}
+.part1>a{
+    width: 100%;
+    font-size: 15px;
+    
+}
+
+.part1>a:hover{
+    background:rgb(255,255,255,0.3);
+    color: #0D1117;
+}
+
+.part2{
+    background: rgb(255,255,255,0.2);
+    
+    width:100%;
+}
+.part2>a{
+    font-size: 15px;
+    text-align: center;
+}
+
+.part2>a:hover{
+    background:rgb(255,255,255,0.3);
+    color: #0D1117;
+}
+.box2{
+    background: rgb(255,255,255,0.2);
+}
+.box3{
+    background: rgb(255,255,255,0.2);
+}
+.box2>div{
+    width: 100%;
+    color: #b3b2b2;
+    text-align: center;
+    padding:5px 0px 5px 0px;
+}
+.box3>div{
+    width: 100%;
+    color: #b3b2b2;
+    text-align: center;
+    padding:5px 0px 5px 0px;
+}
+
+.box2>div:hover{
+    background: rgb(255,255,255,0.3);
+    color: #0D1117;
+}
+.box3>div:hover{
+    background: rgb(255,255,255,0.3);
+    color: #0D1117;
+}
