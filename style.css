@@ -524,6 +524,9 @@ html{
         margin-left:25%;
     
     }
+    .box1{
+        width: 100%;
+    }
   
     #img0{
         height: 40px;
@@ -577,7 +580,7 @@ ul{
     font-size: 15px;
 }
 .layout{
-    margin-left:35%;
+    margin-left:25%;
 }
 #circular{
     font-size: 15px;
@@ -601,6 +604,12 @@ ul{
     width: 30px;
     height: 30px;
 
+}
+.teacher_img{
+    height: min-content;
+}
+#img1:hover{
+     opacity: 50%;
 }
 
 }
