@@ -96,6 +96,7 @@ body{
 }
 .quote{
     display: flex;
+    height: auto;
 }
 
 
@@ -174,10 +175,7 @@ details{
 .box4{
     grid-area: box4;
 }
-.layout>div{
 
-    /* background-color:#F4F3F5; */
-}
 ul{
     width:500px;
     text-align:left;
@@ -193,7 +191,8 @@ ul{
 .container>div:hover{
    background-color: #F1C543;
     /* background-image: linear-gradient(to right , rgb(43, 161, 126),rgb(106, 190, 106)); */
-    transition:ease-in-out;
+    transition:ease-in;
+    color: white;
     border-radius: 20px;
 }
 .in4{
@@ -208,6 +207,7 @@ ul{
 
 .div4:hover >div{
     visibility: visible;
+    color: white;
     z-index: 1;
     
 }
@@ -224,7 +224,22 @@ a:hover{
 .div6>a{
     color: black;
 }
-
+.div3>a:hover{
+    color:white
+}
+.div5>a:hover{
+        color:white
+    
+}
+.div6>a:hover{
+   color: white;
+}
+label{
+    color: #592C88;
+}
+.dark-mode #res{
+    color: white;
+}
 
  a{
     
@@ -374,9 +389,11 @@ a:hover{
 }
 .box2{
     background: rgb(255,255,255,0.2);
+    font-weight: bold;
 }
 .box3{
     background: rgb(255,255,255,0.2);
+    font-weight: bold;
 }
 .box2>div{
     width: 100%;
@@ -393,17 +410,66 @@ a:hover{
 
 .box2>div:hover{
     background: rgb(255,255,255,0.3);
-    color: #0D1117;
 }
 
 .box2>div>:hover{
-    color: #0D1117;
+    color:white
+
 }
+
 .box3>div>:hover{
-    color: #0D1117;
+    color:white
+
 }
+
 
 .box3>div:hover{
     background: rgb(255,255,255,0.3);
+    color:#b3b2b2;
+}
+.dark-mode .box1{
+    background-color:rgb(255, 9255, 255,0.1);
+    box-shadow: 0px 0px 20px #49249e;
+    
+}
+.dark-mode .box2>div{
+    background-color:rgb(255, 9255, 255,0.1);
+    
+}
+.dark-mode .box1>div>h4{
+    background-color:#49249e;
+    color: rgb(175, 174, 174) 
+}
+
+.dark-mode .box2{
+    box-shadow: 0px 0px 20px #49249e;
+}
+.dark-mode .box3{
+    background-color:rgb(255, 9255, 255,0.3);
+    box-shadow: 0px 0px 20px #49249e;
+}
+.dark-mode h4{
+    background-color: #49249e;
+    color:rgb(175, 174, 174);
+    
+}
+.dark-mode .box2>div:hover{
+    background-color:rgb(255, 9255, 255,0.3);
+}
+.dark-mode .quote>p{
+    background-color: #49249e;
+}
+.dark-mode .quote>p:hover{
+    background-color:#F1C543;
     color: #0D1117;
+    box-shadow:0px 0px 20px #9c75f8;
+}
+.dark-mode .container>div:hover{
+    background-color: #49249e;
+}
+.dark-mode .div2>details:hover{
+    background-color: #49249e;
+}
+.dark-mode #kannada{
+    color: #d0bcff;
 }
