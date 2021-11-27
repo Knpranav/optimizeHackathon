@@ -508,6 +508,13 @@ html{
 
 /*media query*/
 @media screen and (max-width: 569px) {
+    html{
+        background-color: #202327;
+    }
+    body{
+        background-color: #202327;
+        background-image: none;
+    }
     .title{
         font-size: 10px;
         width:100%;
@@ -562,6 +569,9 @@ ul{
 #bulletin{
     font-size: 15px;
 }
+.layout{
+    margin-left: 60px;
+}
 #circular{
     font-size: 15px;
 }
@@ -571,6 +581,7 @@ ul{
 }
 .box2>div{
     font-size: 10px;
+    
     
 }
 .part1>a{
