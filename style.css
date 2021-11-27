@@ -279,6 +279,9 @@ label{
     
 
 }
+.dark-mode #abt{
+    color: white;
+}
 #img1:hover{
     transform:skewY(0deg);
     height: 400px;
@@ -518,9 +521,10 @@ html{
     .title{
         font-size: 10px;
         width:100%;
-        margin-left:35%;
+        margin-left:25%;
     
     }
+  
     #img0{
         height: 40px;
         width: 40px;
@@ -534,7 +538,7 @@ html{
         font-size: 5px;
     }
     .container{
-        margin-left:35%;
+        margin-left:25%;
     }
   #img1{
       width: 80px;
@@ -555,7 +559,7 @@ html{
     padding: 0px;
 }
 .teacher{
-    margin-left:35%;
+    margin-left:25%;
 }
 .container>div:hover{
     border-radius:0;
